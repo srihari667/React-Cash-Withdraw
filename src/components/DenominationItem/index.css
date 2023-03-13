@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.reduce-button {
+  width: 40%;
+  margin: 15px;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 10px;
+  background-color: #585076;
+  border: 1px solid #d4d2db;
+  color: #d4d2db;
+  font-weight: bold;
+  border-radius: 5px;
+}

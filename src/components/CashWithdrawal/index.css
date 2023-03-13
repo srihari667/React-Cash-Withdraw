@@ -1,0 +1,90 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  width: 40%;
+  height: 80%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 12px;
+}
+.profile-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 55px;
+  border-width: 0px;
+  background-color: #c7d2fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.s {
+  font-weight: bold;
+  color: #7c3aed;
+  font-size: 28px;
+}
+.name {
+  color: #d4d2db;
+  font-size: 28px;
+  margin-left: 15px;
+}
+.balance-container {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cash-withdrawal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.balance-text {
+  color: #585076;
+  font-size: 25px;
+}
+.balance {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+}
+.rupees {
+  color: #585076;
+  font-size: 18px;
+}
+.withdraw {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+}
+.choose-sum {
+  color: #585076;
+  font-size: 18px;
+}
+.denominations-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
